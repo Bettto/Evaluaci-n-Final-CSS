@@ -29,6 +29,9 @@ header{
     margin: auto;
     padding: 5%;
 }
+.titulo, .menu {
+  width: 100%
+}
 img {
   display: block;
   margin: auto;
@@ -41,7 +44,11 @@ img {
   background-color: #82c3a6;
   width: 100%
 }
-
+.imagen_central div {
+  margin: auto;
+  border: 0;
+  padding: 10%
+}
 .imagen_secundaria {
   background-color: #d5c75f;
   color: black;
@@ -61,11 +68,20 @@ footer {
   margin: auto;
   padding: 5%;
 }
+.contactos, .terminos, .redes, .derechos {
+  width: 100%
+}
 @media (min-width: 900px) {
 .contenido {
 width: 900px;
 margin-left: auto;
 margin-right: auto;
+}
+.titulo {
+  width:70%
+}
+.menu {
+  width: 30%
 }
 .imagen_central {
   width: 100%
@@ -75,5 +91,8 @@ margin-right: auto;
 }
 .imagensec1, .imagensec2 {
   width: 50%
+}
+.contactos, .terminos, .redes, .derechos {
+  width: 25%
 }
 }
