@@ -7,7 +7,13 @@ color: white;
 .contenido {
   margin: 2px;
   padding: 0;
-  width: 100%
+  width: 100%;
+}
+.contenido {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 }
 .titulo {
   background-color: #E6EBE0
@@ -41,7 +47,8 @@ color: white;
 }
 @media (min-width: 900px) {
 .contenido {
-width: 50%;
-color: red;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
 }
 }
