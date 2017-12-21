@@ -75,6 +75,12 @@ section a:active {font-size:1em;color:black;text-decoration:none}
   background-color: #82c3a6;
   width: 100%
 }
+#principal {
+  box-shadow: 2px 2px #02010a;
+  margin: 2px;
+  border: 2px solid black;
+  transition: all 1s;
+}
 .imagen_secundaria {
 	display: -webkit-flex;
 	display: flex;
@@ -88,7 +94,25 @@ section a:active {font-size:1em;color:black;text-decoration:none}
   text-decoration: underline;
 }
 .imagensec1, .imagensec2 {
-  width: 100%
+  width: 100%;
+}
+#paisaje {
+  box-shadow: 2px 2px #82c3a6;
+  margin: 2px;
+  border: 2px solid black;
+  transition: all 1s;
+}
+#paisaje:hover {
+  transform: rotate(10deg);
+}
+#retrato {
+  box-shadow: 2px 2px #82c3a6;
+  margin: 2px;
+  border: 2px solid black;
+  transition: all 1s;
+}
+#retrato:hover {
+  transform: translate(20px, -5px);
 }
 footer div {
 	box-sizing: border-box;
@@ -170,6 +194,6 @@ nav {
 }
 .redes {
   width: 31%;
-  white-space: nowrap;  
+  white-space: nowrap;
 }
 }
