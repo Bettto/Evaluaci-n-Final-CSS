@@ -141,6 +141,10 @@ footer {
 .redes a:hover {font-size:1em;color:black;text-decoration:none}
 .redes a:visited {font-size:1em;color:black;text-decoration:none}
 .redes a:active {font-size:1em;color:black;text-decoration:none}
+.derechos a:link {font-size:1em;color:black;text-decoration:none}
+.derechos a:hover {font-size:1em;color:black;text-decoration:none}
+.derechos a:visited {font-size:1em;color:black;text-decoration:none}
+.derechos a:active {font-size:1em;color:black;text-decoration:none}
 .redes img {
   width: 30px;
 }
@@ -186,14 +190,17 @@ nav {
 .imagensec1, .imagensec2 {
   width: 50%
 }
-.contactos, .terminos, .derechos {
+.terminos, .derechos {
   width: 23%;
   margin: 0;
   padding: 0;
   border: 0;
 }
+.contactos {
+  width: 24%;
+}
 .redes {
-  width: 31%;
+  width: 30%;
   white-space: nowrap;
 }
 }
