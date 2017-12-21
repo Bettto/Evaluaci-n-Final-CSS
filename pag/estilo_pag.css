@@ -63,14 +63,21 @@ img {
   width: 80%;
 }
 section {
-  background-color: #82c3a6;
-  width: 100%
+  background-color: #d5c75f;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+#img1, #img2, #img3, #img4, #img5, #img6 {
+  width: 100%;
 }
 section div {
 	box-sizing: border-box;
 	min-width: 150px;
 	padding: 20px;
-}
+  }
 section img {
   box-shadow: 2px 2px #02010a;
   margin: 2px;
@@ -159,15 +166,41 @@ nav {
   border: 0;
   padding-top: 4%;
 }
-
-.imagen_central {
-  width: 100%
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
-.imagen_secundaria {
-  width: 100%
+.fila1 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
 }
-.imagensec1, .imagensec2 {
-  width: 50%
+.fila2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+section img {
+  display: initial;
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  max-width: 200%;
+  width: 100%;
+}
+#img1, #img2, #img3, #img4, #img5, #img6 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
 .terminos, .derechos {
   width: 23%;
