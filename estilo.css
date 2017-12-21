@@ -4,6 +4,11 @@ font-size: 1em;
 background-color:#02010a;
 color: white;
 }
+A:link{font-size:1em;color:white;text-decoration:none; display: block;}
+A:visited{font-size:1em;color:white;text-decoration:none}
+A:hover{font-size:1em;color:white;text-decoration:none}
+A:active{font-size:1em;color:white;text-decoration:none}
+
 .contenido {
   margin: 0;
   padding: 0;
@@ -11,21 +16,21 @@ color: white;
 }
 .contenido div {
 	box-sizing: border-box;
-	min-width: 150px;
-	padding: 20px;
+	min-width: 20%;
+	padding: 5%;
 }
-A:link{font-size:1em;color:white;text-decoration:none; display: block;}
-A:visited{font-size:1em;color:white;text-decoration:none}
-A:hover{font-size:1em;color:white;text-decoration:none}
-A:active{font-size:1em;color:white;text-decoration:none}
-
+.cabecera {
+  background-color: #5b7989;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
 header {
     background-color: #5b7989;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0%;
 }
 .titulo {
@@ -34,14 +39,18 @@ header {
 }
 nav {
   background-color: #5b7989;
-  margin: auto;
-  padding: 0%;
-  padding-bottom: 10%
+  width: 100%;
+  padding-bottom: 10%;
+  margin-left: 10%;
 }
-.menu li {
+nav li {
   float: left;
-  list-style:none;
   margin:0% 10% 10% 0%;
+  list-style:none;
+}
+nav ul {
+  position: relative;
+  margin: auto;
 }
 img {
   display: block;
@@ -50,6 +59,11 @@ img {
   padding: 0;
   max-width: 100%;
   width: 80%;
+}
+section div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
 }
 .imagen_central {
   background-color: #82c3a6;
@@ -69,6 +83,11 @@ img {
 }
 .imagensec1, .imagensec2 {
   width: 100%
+}
+footer div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
 }
 footer {
   background-color: #C6d5c5;
@@ -105,12 +124,28 @@ width: 900px;
 margin-left: auto;
 margin-right: auto;
 }
+.cabecera{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 100%
+}
 .titulo {
-  width:70%
+  width:60%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
 }
-.menu {
-  width: 30%
+nav {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-top: 4%;
 }
+
 .imagen_central {
   width: 100%
 }
