@@ -52,7 +52,7 @@ nav li {
 }
 nav ul {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -79,7 +79,7 @@ section a:active {font-size:1em;color:black;text-decoration:none}
   box-shadow: 2px 2px #02010a;
   margin: 2px;
   border: 2px solid black;
-  transition: all 1s;
+  margin: 0 auto;
 }
 .imagen_secundaria {
 	display: -webkit-flex;
