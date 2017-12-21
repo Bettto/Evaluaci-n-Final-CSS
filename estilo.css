@@ -162,7 +162,14 @@ nav {
 .imagensec1, .imagensec2 {
   width: 50%
 }
-.contactos, .terminos, .redes, .derechos {
-  width: 25%
+.contactos, .terminos, .derechos {
+  width: 23%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.redes {
+  width: 31%;
+  white-space: nowrap;  
 }
 }
